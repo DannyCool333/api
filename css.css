@@ -1,0 +1,93 @@
+
+
+
+#baggrund {
+    background-image: url(background.png);
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+#logo {
+  display: block;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-bottom: 50%;
+}
+
+#vejret {
+    background-color: #3977b7;
+    height: 100%;
+    font-family: sans, serif;
+    width: 100%;
+}
+
+#map {
+    height: 700px;}
+
+#result{
+   text-align: center;
+   width: 100%;
+}
+
+.weatherInfo {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    color: white;
+    border: 1px solid lawngreen;
+}
+
+figure {
+   text-align: center;
+   margin: 0;
+    
+}
+
+figure img {
+   width: 12%;
+}
+
+h1 {
+     margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+h2 {
+    margin-bottom: -20px;
+    margin-top: -20px;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 100px;
+    margin-top: -20px;
+    font-size: 40px;
+}
+
+
+#parallaxspeed {
+ 
+}
+
+.block{
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  height: 800px;
+}
+
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none;
+   
+}
